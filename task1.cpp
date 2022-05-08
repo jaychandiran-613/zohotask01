@@ -1,10 +1,14 @@
 #include <iostream>
-#include <string.h>
+#include <string>
+#include <string_view>
+#include <bits/stdc++.h>
 #include <iterator>
 #include <map>
 using namespace std;
-#include "class01.h"
-#include "class02.h"
+#include "classperson.h"
+#include "searchalgorithm.h"
+#include "classHRM.h"
+
 
 int main()
 {
@@ -34,9 +38,9 @@ int main()
 			case 3:
 				hrm1.Updateperson();
 				break;
-				//case 4:
-				// hrm1.reportlist();
-				//  break;
+			case 4:
+				hrm1.reportlist();
+				 break;
 
 			case 5:
 				hrm1.searchperson();
@@ -45,7 +49,7 @@ int main()
 			case 7:
 				game = 0;
 				break;
-                
+
 			case 6:
 				hrm1.displaydetails();
 				break;
